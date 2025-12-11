@@ -1,0 +1,1 @@
+select * from {{ ref('first_snow_sql') }} limit 1;
