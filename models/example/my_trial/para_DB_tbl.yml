@@ -1,0 +1,10 @@
+version: 2 ###defining the yml version
+
+sources:
+  - name: my_trial_data
+    schema: INTERNAL_STAGE_PRAC
+    database: DEMO1
+    tables:
+      - name: emp ###logical name 
+        identifier: EMPLOYEE ###referring table name
+
