@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: ass1
+    database: DBT1
+    schema: DBT_ASS1
+    tables:
+      - name: cust
+        identifier: RAW_CUSTOMER1
+      - name: ord
+        identifier: RAW_ORDERS1
